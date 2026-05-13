@@ -1,0 +1,49 @@
+{
+  "businessName": "OSINIMU B ENTERPRISE",
+  "industry": "Fashion and Creative Design",
+  "tone": "creative, elegant, professional",
+  "tagline": "Where Nigerian Fashion Meets Creative Excellence",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to OSINIMU B ENTERPRISE – Your premier destination for exquisite fashion and creative design in Ogori/Magongo. We bring your style vision to life with authentic Nigerian craftsmanship and contemporary elegance. From bespoke clothing to innovative design solutions, we create pieces that tell your unique story.",
+      "imagePrompt": "Elegant Nigerian fashion studio with vibrant African print fabrics draped artistically, professional sewing equipment, colorful thread spools, and natural lighting streaming through windows, warm and inviting atmosphere, high-end fashion atelier aesthetic, Ogori Nigeria",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "OSINIMU B ENTERPRISE is a leading fashion and creative design house based in the heart of Ogori/Magongo, Nigeria. We specialize in creating stunning, made-to-measure garments and innovative design solutions that celebrate Nigerian culture while embracing modern trends. Our commitment to quality craftsmanship, attention to detail, and customer satisfaction has made us a trusted name in fashion across the community. Whether you're looking for traditional attire, contemporary fashion pieces, or creative design services, our experienced team transforms your ideas into wearable art.",
+      "imagePrompt": "Professional Nigerian fashion designer at work in a bright studio, measuring fabric on a dress form, surrounded by colorful African textiles, sketches, and design tools, authentic Nigerian fashion workspace, creative and inspiring environment",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "Custom Fashion Design – We create bespoke clothing tailored perfectly to your measurements and style preferences, from elegant aso-ebi to contemporary casual wear.\n\nTraditional Nigerian Attire – Expert crafting of traditional outfits including agbada, buba and sokoto, iro and buba, and ceremonial wear for weddings and special occasions.\n\nContemporary Fashion – Modern clothing designs that blend international trends with Nigerian flair, perfect for the fashion-forward individual.\n\nAlterations & Repairs – Professional garment alterations, resizing, and repairs to keep your favorite pieces fitting perfectly.\n\nCreative Design Consultation – Personalized style consultation to help you discover looks that enhance your natural beauty and confidence.\n\nEvent Fashion – Complete outfit coordination and creation for weddings, parties, corporate events, and special celebrations.",
+      "imagePrompt": "Grid collage of Nigerian fashion services: colorful traditional aso-ebi outfits on mannequins, contemporary African fashion pieces, tailor measuring client, sewing machine in action, fabric selection process, elegant finished garments, professional fashion studio setting",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Get In Touch",
+      "copy": "Ready to elevate your style? Visit OSINIMU B ENTERPRISE at our Ogori location or reach out to discuss your fashion needs. We're here to bring your creative vision to life with exceptional craftsmanship and personalized service. Walk-ins are welcome, or schedule a consultation for a more personalized experience.\n\nH22 Ileteju Street, Ogori, Ogori/Magongo, Nigeria\nCall or WhatsApp: 0703 979 1408\n\nOur studio is open Monday through Saturday, and we're always excited to meet new clients and discuss your fashion dreams. Let's create something beautiful together!",
+      "imagePrompt": "Welcoming Nigerian fashion boutique storefront with 'OSINIMU B ENTERPRISE' signage, colorful fabric displays visible through windows, inviting entrance, Ogori street setting, warm golden hour lighting, professional and accessible atmosphere",
+      "layout": "centered"
+    },
+    {
+      "id": "testimonials",
+      "name": "What Our Clients Say",
+      "copy": "\"OSINIMU B ENTERPRISE created the most beautiful aso-ebi for my wedding. The attention to detail was exceptional, and all my guests looked stunning!\" – Mrs. Adenike O.\n\n\"I've been a loyal customer for years. The quality of their work is unmatched, and they always deliver on time. Highly recommended!\" – Mr. Biodun A.\n\n\"From consultation to final fitting, the experience was seamless. They understood exactly what I wanted and brought my vision to life beautifully.\" – Miss Folake M.",
+      "imagePrompt": "Happy Nigerian clients wearing beautiful custom-made outfits, smiling and confident, diverse group showing different fashion styles from traditional to contemporary, professional photography, authentic testimonial atmosphere, Nigerian setting",
+      "layout": "cards"
+    }
+  ],
+  "contact": {
+    "phone": "07039791408",
+    "email": "",
+    "address": "H22 Ileteju Street, Ogori, Ogori/Magongo, Nigeria",
+    "whatsapp": "https://wa.me/2347039791408"
+  }
+}
