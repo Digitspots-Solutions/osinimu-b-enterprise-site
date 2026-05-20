@@ -1,48 +1,41 @@
 {
-  "businessName": "OSINIMU B ENTERPRISE",
-  "industry": "Fashion and Creative Design",
-  "tone": "creative, elegant, professional",
-  "tagline": "Where Nigerian Fashion Meets Creative Excellence",
+  "businessName": "Jovika Foods Fresh Produce Co",
+  "industry": "FoodTech",
+  "tone": "warm and inviting",
+  "tagline": "Fresh from farm to your table, delivered with care",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to OSINIMU B ENTERPRISE – Your premier destination for exquisite fashion and creative design in Ogori/Magongo. We bring your style vision to life with authentic Nigerian craftsmanship and contemporary elegance. From bespoke clothing to innovative design solutions, we create pieces that tell your unique story.",
-      "imagePrompt": "Elegant Nigerian fashion studio with vibrant African print fabrics draped artistically, professional sewing equipment, colorful thread spools, and natural lighting streaming through windows, warm and inviting atmosphere, high-end fashion atelier aesthetic, Ogori Nigeria",
+      "copy": "Welcome to Jovika Foods Fresh Produce Co\n\nFresh from farm to your table, delivered with care\n\nExperience the finest farm-fresh produce and confectionery delights delivered straight from Ogori/Magongo to your doorstep. At Jovika Foods, we combine traditional farming excellence with modern food technology to bring you quality, freshness, and convenience.",
+      "imagePrompt": "Vibrant Nigerian farm landscape at golden hour, lush green farmland with fresh vegetables and fruits in woven baskets, farmers working in background, warm sunlight filtering through, photorealistic, professional food photography style, shallow depth of field, rich colors, Ogori countryside atmosphere",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "OSINIMU B ENTERPRISE is a leading fashion and creative design house based in the heart of Ogori/Magongo, Nigeria. We specialize in creating stunning, made-to-measure garments and innovative design solutions that celebrate Nigerian culture while embracing modern trends. Our commitment to quality craftsmanship, attention to detail, and customer satisfaction has made us a trusted name in fashion across the community. Whether you're looking for traditional attire, contemporary fashion pieces, or creative design services, our experienced team transforms your ideas into wearable art.",
-      "imagePrompt": "Professional Nigerian fashion designer at work in a bright studio, measuring fabric on a dress form, surrounded by colorful African textiles, sketches, and design tools, authentic Nigerian fashion workspace, creative and inspiring environment",
+      "copy": "Who We Are\n\nJovika Foods Fresh Produce Co (also known as Jovika Foods Farm-to-Table Limited) is a pioneering FoodTech company based in the heart of Ogori/Magongo, Nigeria. Founded by a passionate confectionery tech entrepreneur, we bridge the gap between traditional farming and modern food technology.\n\nOur mission is simple: to deliver the freshest produce and finest confectionery products directly from our farms to your table. We work closely with local farmers, ensuring sustainable practices while maintaining the highest quality standards. Every product that leaves our facility is a testament to our commitment to freshness, quality, and customer satisfaction.\n\nAt Jovika Foods, we believe that good food starts with good farming. That's why we've invested in both the agricultural heritage of Ogori/Magongo and cutting-edge food technology to bring you the best of both worlds.",
+      "imagePrompt": "Modern Nigerian food processing facility interior combined with traditional farm imagery, clean stainless steel equipment alongside fresh produce displays, professional workers in branded uniforms inspecting vegetables, bright natural lighting, contemporary meets traditional aesthetic, photorealistic, corporate food industry photography",
       "layout": "split"
     },
     {
       "id": "services",
-      "name": "Our Services",
-      "copy": "Custom Fashion Design – We create bespoke clothing tailored perfectly to your measurements and style preferences, from elegant aso-ebi to contemporary casual wear.\n\nTraditional Nigerian Attire – Expert crafting of traditional outfits including agbada, buba and sokoto, iro and buba, and ceremonial wear for weddings and special occasions.\n\nContemporary Fashion – Modern clothing designs that blend international trends with Nigerian flair, perfect for the fashion-forward individual.\n\nAlterations & Repairs – Professional garment alterations, resizing, and repairs to keep your favorite pieces fitting perfectly.\n\nCreative Design Consultation – Personalized style consultation to help you discover looks that enhance your natural beauty and confidence.\n\nEvent Fashion – Complete outfit coordination and creation for weddings, parties, corporate events, and special celebrations.",
-      "imagePrompt": "Grid collage of Nigerian fashion services: colorful traditional aso-ebi outfits on mannequins, contemporary African fashion pieces, tailor measuring client, sewing machine in action, fabric selection process, elegant finished garments, professional fashion studio setting",
+      "name": "Our Products & Services",
+      "copy": "What We Offer\n\nFresh Farm Produce\nDirectly from our partner farms in Ogori/Magongo, we supply the freshest vegetables, fruits, and herbs. Our farm-to-table model ensures you receive produce at peak freshness, harvested and delivered within hours.\n\nPremium Confectionery\nLeveraging our expertise in confectionery technology, we create delicious baked goods, pastries, and sweet treats using locally-sourced ingredients. From traditional Nigerian favorites to contemporary delights, every bite is crafted with care.\n\nFarm-to-Table Delivery\nOur innovative delivery system brings farm freshness directly to your home or business. We use temperature-controlled logistics to maintain quality from harvest to your kitchen.\n\nBulk Supply for Businesses\nRestaurants, hotels, and food businesses can rely on us for consistent, high-quality produce and confectionery supplies. We offer flexible ordering and reliable delivery schedules tailored to your business needs.",
+      "imagePrompt": "Beautifully arranged Nigerian farm produce and confectionery products on rustic wooden table, fresh tomatoes, peppers, leafy greens, yams alongside artisan bread and pastries, morning natural light, top-down photography angle, vibrant colors, professional food styling, shallow depth of field",
       "layout": "grid"
     },
     {
       "id": "contact",
       "name": "Get In Touch",
-      "copy": "Ready to elevate your style? Visit OSINIMU B ENTERPRISE at our Ogori location or reach out to discuss your fashion needs. We're here to bring your creative vision to life with exceptional craftsmanship and personalized service. Walk-ins are welcome, or schedule a consultation for a more personalized experience.\n\nH22 Ileteju Street, Ogori, Ogori/Magongo, Nigeria\nCall or WhatsApp: 0703 979 1408\n\nOur studio is open Monday through Saturday, and we're always excited to meet new clients and discuss your fashion dreams. Let's create something beautiful together!",
-      "imagePrompt": "Welcoming Nigerian fashion boutique storefront with 'OSINIMU B ENTERPRISE' signage, colorful fabric displays visible through windows, inviting entrance, Ogori street setting, warm golden hour lighting, professional and accessible atmosphere",
+      "copy": "Contact Jovika Foods\n\nReady to experience farm-fresh quality? We're here to serve you.\n\nVisit Us\nH22 Ileteju Street, Ogori\nOgori/Magongo, Nigeria\n\nCall Us\n+234 703 979 1408\n\nEmail Us\ninfo@jovikafoods.com\n\nBusiness Hours\nMonday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 4:00 PM\nSunday: Closed\n\nWhether you're a household looking for fresh produce or a business seeking a reliable supplier, we're ready to serve you. Contact us today to discuss your needs or place an order.",
+      "imagePrompt": "Welcoming Nigerian storefront with fresh produce displays, friendly staff member smiling at entrance, green and natural color scheme, professional business photography, inviting atmosphere, clear signage, daytime exterior shot, photorealistic",
       "layout": "centered"
-    },
-    {
-      "id": "testimonials",
-      "name": "What Our Clients Say",
-      "copy": "\"OSINIMU B ENTERPRISE created the most beautiful aso-ebi for my wedding. The attention to detail was exceptional, and all my guests looked stunning!\" – Mrs. Adenike O.\n\n\"I've been a loyal customer for years. The quality of their work is unmatched, and they always deliver on time. Highly recommended!\" – Mr. Biodun A.\n\n\"From consultation to final fitting, the experience was seamless. They understood exactly what I wanted and brought my vision to life beautifully.\" – Miss Folake M.",
-      "imagePrompt": "Happy Nigerian clients wearing beautiful custom-made outfits, smiling and confident, diverse group showing different fashion styles from traditional to contemporary, professional photography, authentic testimonial atmosphere, Nigerian setting",
-      "layout": "cards"
     }
   ],
   "contact": {
-    "phone": "07039791408",
-    "email": "",
+    "phone": "+234 703 979 1408",
+    "email": "info@jovikafoods.com",
     "address": "H22 Ileteju Street, Ogori, Ogori/Magongo, Nigeria",
     "whatsapp": "https://wa.me/2347039791408"
   }
