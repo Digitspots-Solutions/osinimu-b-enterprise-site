@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OSINIMU B ENTERPRISE - Where Nigerian Fashion Meets Creative Excellence</title>
+    <title>Jovika Foods Fresh Produce Co - Fresh from farm to your table, delivered with care</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #121111;
-            --color-accent: #005fe3;
-            --color-bg: #F5F5F5;
-            --color-text: #080808;
-            --color-surface: #e3e3e3;
-            --color-secondary-accent: #f8135f;
-            --font-display: 'Syne', sans-serif;
-            --font-body: 'Manrope', sans-serif;
-            --border-radius: 0px;
+            --primary-color: #0c172c;
+            --accent-color: #ed3300;
+            --bg-color: #F6F6F6;
+            --text-color: #081220;
+            --surface-color: #131b3b;
+            --secondary-accent: #05b14d;
+            --font-display: 'Kanit', sans-serif;
+            --font-body: 'Figtree', sans-serif;
+            --border-radius: 18px;
         }
 
         * {
@@ -32,15 +32,14 @@
 
         body {
             font-family: var(--font-body);
-            color: var(--color-text);
-            background: var(--color-bg);
+            color: var(--text-color);
+            background-color: var(--bg-color);
             line-height: 1.6;
-            overflow-x: hidden;
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-display);
-            font-weight: 800;
+            font-weight: 700;
             line-height: 1.2;
         }
 
@@ -59,60 +58,45 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(245, 245, 245, 0.95);
-            backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1.25rem 2rem;
-            box-shadow: 4px 4px 0 var(--color-primary);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem 0;
         }
 
         .nav-container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
         .logo {
-            font-size: 1.5rem;
             font-family: var(--font-display);
-            font-weight: 800;
-            color: var(--color-primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
             text-decoration: none;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2.5rem;
+            gap: 2rem;
         }
 
         .nav-links a {
             text-decoration: none;
-            color: var(--color-text);
+            color: var(--text-color);
             font-weight: 500;
             transition: color 0.3s ease;
-            position: relative;
         }
 
         .nav-links a:hover {
-            color: var(--color-accent);
-        }
-
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--color-secondary-accent);
-            transition: width 0.3s ease;
-        }
-
-        .nav-links a:hover::after {
-            width: 100%;
+            color: var(--accent-color);
         }
 
         .mobile-menu-btn {
@@ -125,7 +109,7 @@
         .mobile-menu-btn span {
             width: 25px;
             height: 3px;
-            background: var(--color-text);
+            background: var(--text-color);
             transition: all 0.3s ease;
             transform-origin: center;
         }
@@ -148,8 +132,8 @@
             right: -100%;
             width: 300px;
             height: calc(100vh - 70px);
-            background: var(--color-bg);
-            box-shadow: -4px 4px 0 var(--color-primary);
+            background: var(--bg-color);
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
             padding: 2rem;
@@ -169,7 +153,7 @@
 
         .mobile-menu ul a {
             text-decoration: none;
-            color: var(--color-text);
+            color: var(--text-color);
             font-size: 1.1rem;
             font-weight: 500;
             transition: color 0.3s ease;
@@ -178,17 +162,18 @@
         }
 
         .mobile-menu ul a:hover {
-            color: var(--color-accent);
+            color: var(--primary-color);
         }
 
         /* Hero Section */
         #hero {
             position: relative;
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
-            justify-content: flex-end;
-            padding: 80px 2rem;
+            justify-content: center;
+            text-align: center;
+            color: white;
             overflow: hidden;
             animation: fadeUp 0.6s ease forwards;
         }
@@ -199,13 +184,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 1;
-        }
-
-        .hero-bg img {
-            width: 100%;
-            height: 100%;
             object-fit: cover;
+            z-index: -2;
         }
 
         .hero-overlay {
@@ -215,69 +195,76 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: 2;
+            z-index: -1;
         }
 
         .hero-content {
-            position: relative;
-            z-index: 3;
-            max-width: 650px;
-            color: #fff;
-            text-align: right;
-            margin-right: 5%;
+            max-width: 900px;
+            padding: 0 2rem;
         }
 
         .hero-content h1 {
-            font-size: 4rem;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: -2px;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
-        .hero-tagline {
+        .hero-content .tagline {
             font-size: 1.5rem;
-            font-family: var(--font-display);
-            font-weight: 700;
-            color: var(--color-secondary-accent);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
         }
 
         .hero-content p {
             font-size: 1.1rem;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem;
             line-height: 1.8;
-            font-weight: 300;
         }
 
-        .cta-btn {
+        .cta-button {
             display: inline-block;
-            padding: 1rem 3rem;
-            background: var(--color-accent);
-            color: #fff;
+            padding: 1rem 2.5rem;
+            background: var(--accent-color);
+            color: white;
             text-decoration: none;
-            font-weight: 700;
+            border-radius: var(--border-radius);
+            font-weight: 600;
             font-size: 1.1rem;
             transition: all 0.3s ease;
-            box-shadow: 6px 6px 0 var(--color-secondary-accent);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(237, 51, 0, 0.3);
         }
 
-        .cta-btn:hover {
-            transform: translate(3px, 3px);
-            box-shadow: 3px 3px 0 var(--color-secondary-accent);
+        .cta-button:hover {
+            background: #c92d00;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(237, 51, 0, 0.4);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
         }
 
         /* About Section */
         #about {
-            padding: 80px 2rem;
+            background: white;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.1s;
         }
 
-        .about-container {
-            max-width: 1400px;
-            margin: 0 auto;
+        .about-split {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -285,338 +272,243 @@
         }
 
         .about-image {
-            position: relative;
-        }
-
-        .about-image img {
             width: 100%;
-            height: 600px;
+            height: 500px;
             object-fit: cover;
-            box-shadow: 8px 8px 0 var(--color-primary);
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         }
 
         .about-content h2 {
-            font-size: 3.5rem;
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-            letter-spacing: -1px;
+            margin-bottom: 1.5rem;
         }
 
         .about-content p {
-            font-size: 1.1rem;
-            line-height: 1.8;
             margin-bottom: 1.5rem;
+            line-height: 1.8;
         }
 
         /* Services Section */
         #services {
-            padding: 80px 2rem;
-            background: var(--color-surface);
+            background: var(--bg-color);
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.2s;
         }
 
-        .services-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .services-container h2 {
-            font-size: 3.5rem;
-            margin-bottom: 3rem;
-            text-transform: uppercase;
-            letter-spacing: -1px;
+        #services h2 {
             text-align: center;
+            margin-bottom: 3rem;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
+            margin-top: 2rem;
         }
 
         .service-card {
-            background: var(--color-bg);
-            padding: 2.5rem;
-            box-shadow: 6px 6px 0 var(--color-primary);
-            transition: transform 0.3s ease;
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translate(-3px, -3px);
-            box-shadow: 9px 9px 0 var(--color-primary);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         }
 
         .service-card h3 {
-            font-size: 1.5rem;
+            color: var(--accent-color);
             margin-bottom: 1rem;
-            color: var(--color-accent);
-            text-transform: uppercase;
+            font-size: 1.5rem;
         }
 
         .service-card p {
-            font-size: 1rem;
             line-height: 1.7;
-        }
-
-        /* Testimonials Section */
-        #testimonials {
-            padding: 80px 2rem;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.3s;
-        }
-
-        .testimonials-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .testimonials-container h2 {
-            font-size: 3.5rem;
-            margin-bottom: 3rem;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-            text-align: center;
-        }
-
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-        }
-
-        .testimonial-card {
-            background: var(--color-surface);
-            padding: 2.5rem;
-            border-left: 6px solid var(--color-secondary-accent);
-            position: relative;
-        }
-
-        .testimonial-card::before {
-            content: '"';
-            font-size: 5rem;
-            font-family: var(--font-display);
-            color: var(--color-accent);
-            position: absolute;
-            top: 1rem;
-            left: 1rem;
-            opacity: 0.2;
-        }
-
-        .testimonial-card p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            font-style: italic;
-            margin-bottom: 1rem;
-        }
-
-        .testimonial-author {
-            font-weight: 700;
-            color: var(--color-primary);
-            font-style: normal;
         }
 
         /* Contact Section */
         #contact {
-            padding: 80px 2rem;
-            background: var(--color-primary);
-            color: #fff;
+            background: white;
             animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.4s;
+            animation-delay: 0.3s;
         }
 
-        .contact-container {
-            max-width: 1200px;
-            margin: 0 auto;
+        #contact h2 {
             text-align: center;
+            margin-bottom: 1rem;
         }
 
-        .contact-container h2 {
-            font-size: 3.5rem;
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-            color: #fff;
-        }
-
-        .contact-container p {
+        .contact-intro {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 3rem;
             font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 2rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
         }
 
-        .contact-details {
-            display: flex;
-            justify-content: center;
-            gap: 3rem;
-            flex-wrap: wrap;
-            margin-top: 3rem;
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
         }
 
         .contact-item {
+            background: var(--bg-color);
+            padding: 2rem;
+            border-radius: var(--border-radius);
             text-align: center;
         }
 
         .contact-item h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-            color: var(--color-secondary-accent);
-            text-transform: uppercase;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
         }
 
         .contact-item a {
-            color: #fff;
+            color: var(--accent-color);
             text-decoration: none;
-            font-size: 1.1rem;
-            transition: color 0.3s ease;
+            font-weight: 500;
         }
 
         .contact-item a:hover {
-            color: var(--color-accent);
+            text-decoration: underline;
         }
 
-        .contact-btn {
+        .contact-item p {
+            margin: 0.5rem 0;
+        }
+
+        .whatsapp-btn {
             display: inline-block;
-            padding: 1rem 3rem;
-            background: var(--color-secondary-accent);
-            color: #fff;
+            padding: 1rem 2rem;
+            background: #25D366;
+            color: white;
             text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1rem;
-            margin-top: 2rem;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            margin-top: 1rem;
             transition: all 0.3s ease;
-            box-shadow: 6px 6px 0 var(--color-accent);
-            text-transform: uppercase;
         }
 
-        .contact-btn:hover {
-            transform: translate(3px, 3px);
-            box-shadow: 3px 3px 0 var(--color-accent);
+        .whatsapp-btn:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
         }
 
-        /* WhatsApp Floating Button */
+        /* Floating WhatsApp Button */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #25D366;
-            color: #fff;
             width: 60px;
             height: 60px;
+            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            text-decoration: none;
-            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
             z-index: 999;
-            transition: transform 0.3s ease;
+            transition: all 0.3s ease;
+            text-decoration: none;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-float svg {
+            width: 35px;
+            height: 35px;
+            fill: white;
         }
 
         /* Footer */
         footer {
-            background: var(--color-primary);
-            color: #fff;
+            background: var(--primary-color);
+            color: white;
             text-align: center;
             padding: 2rem;
-            font-size: 0.9rem;
         }
 
         /* Responsive */
-        @media (max-width: 1024px) {
-            .hero-content h1 {
-                font-size: 3rem;
-            }
-
-            .about-container {
-                gap: 2rem;
-            }
-
-            .about-content h2,
-            .services-container h2,
-            .testimonials-container h2,
-            .contact-container h2 {
-                font-size: 2.5rem;
-            }
-        }
-
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
             }
-
+            
             .mobile-menu-btn {
                 display: flex;
             }
 
-            #hero {
-                padding: 48px 1.5rem;
-                justify-content: center;
-            }
-
-            .hero-content {
-                text-align: center;
-                margin-right: 0;
-            }
-
             .hero-content h1 {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
 
-            .hero-tagline {
+            .hero-content .tagline {
                 font-size: 1.2rem;
             }
 
-            .about-container {
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 48px 1.5rem;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            .about-split {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .about-image img {
-                height: 400px;
-            }
-
-            .about-content h2,
-            .services-container h2,
-            .testimonials-container h2,
-            .contact-container h2 {
-                font-size: 2rem;
-            }
-
-            #about,
-            #services,
-            #testimonials,
-            #contact {
-                padding: 48px 1.5rem;
+            .about-image {
+                height: 300px;
             }
 
             .services-grid {
                 grid-template-columns: 1fr;
             }
 
-            .testimonials-grid {
+            .contact-grid {
                 grid-template-columns: 1fr;
-            }
-
-            .contact-details {
-                flex-direction: column;
-                gap: 2rem;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
-                font-size: 1.5rem;
                 bottom: 20px;
                 right: 20px;
+            }
+
+            .whatsapp-float svg {
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1rem;
+            }
+
+            .cta-button {
+                padding: 0.8rem 2rem;
+                font-size: 1rem;
             }
         }
     </style>
@@ -625,12 +517,11 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="#" class="logo">OSINIMU B</a>
+            <a href="#hero" class="logo">Jovika Foods</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#services">Products</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -646,88 +537,60 @@
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#services">Products</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-bg">
-            <img src="https://images.pexels.com/photos/7521131/pexels-photo-7521131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="OSINIMU B ENTERPRISE Fashion Studio">
-        </div>
+        <img src="https://images.pexels.com/photos/539855/pexels-photo-539855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Vibrant Nigerian farm landscape" class="hero-bg">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>OSINIMU B ENTERPRISE</h1>
-            <div class="hero-tagline">Where Nigerian Fashion Meets Creative Excellence</div>
-            <p>Welcome to OSINIMU B ENTERPRISE – Your premier destination for exquisite fashion and creative design in Ogori/Magongo. We bring your style vision to life with authentic Nigerian craftsmanship and contemporary elegance. From bespoke clothing to innovative design solutions, we create pieces that tell your unique story.</p>
-            <a href="#contact" class="cta-btn">Get Started</a>
+            <h1>Welcome to Jovika Foods Fresh Produce Co</h1>
+            <p class="tagline">Fresh from farm to your table, delivered with care</p>
+            <p>Experience the finest farm-fresh produce and confectionery delights delivered straight from Ogori/Magongo to your doorstep. At Jovika Foods, we combine traditional farming excellence with modern food technology to bring you quality, freshness, and convenience.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <div class="about-container">
-            <div class="about-image">
-                <img src="https://images.pexels.com/photos/30689108/pexels-photo-30689108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Professional Fashion Designer at Work">
-            </div>
-            <div class="about-content">
-                <h2>About Us</h2>
-                <p>OSINIMU B ENTERPRISE is a leading fashion and creative design house based in the heart of Ogori/Magongo, Nigeria. We specialize in creating stunning, made-to-measure garments and innovative design solutions that celebrate Nigerian culture while embracing modern trends. Our commitment to quality craftsmanship, attention to detail, and customer satisfaction has made us a trusted name in fashion across the community. Whether you're looking for traditional attire, contemporary fashion pieces, or creative design services, our experienced team transforms your ideas into wearable art.</p>
+        <div class="container">
+            <div class="about-split">
+                <div>
+                    <img src="https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Modern Nigerian food processing facility" class="about-image">
+                </div>
+                <div class="about-content">
+                    <h2>Who We Are</h2>
+                    <p>Jovika Foods Fresh Produce Co (also known as Jovika Foods Farm-to-Table Limited) is a pioneering FoodTech company based in the heart of Ogori/Magongo, Nigeria. Founded by a passionate confectionery tech entrepreneur, we bridge the gap between traditional farming and modern food technology.</p>
+                    <p>Our mission is simple: to deliver the freshest produce and finest confectionery products directly from our farms to your table. We work closely with local farmers, ensuring sustainable practices while maintaining the highest quality standards. Every product that leaves our facility is a testament to our commitment to freshness, quality, and customer satisfaction.</p>
+                    <p>At Jovika Foods, we believe that good food starts with good farming. That's why we've invested in both the agricultural heritage of Ogori/Magongo and cutting-edge food technology to bring you the best of both worlds.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="services">
-        <div class="services-container">
-            <h2>Our Services</h2>
+        <div class="container">
+            <h2>What We Offer</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Custom Fashion Design</h3>
-                    <p>We create bespoke clothing tailored perfectly to your measurements and style preferences, from elegant aso-ebi to contemporary casual wear.</p>
+                    <h3>Fresh Farm Produce</h3>
+                    <p>Directly from our partner farms in Ogori/Magongo, we supply the freshest vegetables, fruits, and herbs. Our farm-to-table model ensures you receive produce at peak freshness, harvested and delivered within hours.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Traditional Nigerian Attire</h3>
-                    <p>Expert crafting of traditional outfits including agbada, buba and sokoto, iro and buba, and ceremonial wear for weddings and special occasions.</p>
+                    <h3>Premium Confectionery</h3>
+                    <p>Leveraging our expertise in confectionery technology, we create delicious baked goods, pastries, and sweet treats using locally-sourced ingredients. From traditional Nigerian favorites to contemporary delights, every bite is crafted with care.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Contemporary Fashion</h3>
-                    <p>Modern clothing designs that blend international trends with Nigerian flair, perfect for the fashion-forward individual.</p>
+                    <h3>Farm-to-Table Delivery</h3>
+                    <p>Our innovative delivery system brings farm freshness directly to your home or business. We use temperature-controlled logistics to maintain quality from harvest to your kitchen.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Alterations & Repairs</h3>
-                    <p>Professional garment alterations, resizing, and repairs to keep your favorite pieces fitting perfectly.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Creative Design Consultation</h3>
-                    <p>Personalized style consultation to help you discover looks that enhance your natural beauty and confidence.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Event Fashion</h3>
-                    <p>Complete outfit coordination and creation for weddings, parties, corporate events, and special celebrations.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <div class="testimonials-container">
-            <h2>What Our Clients Say</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p>OSINIMU B ENTERPRISE created the most beautiful aso-ebi for my wedding. The attention to detail was exceptional, and all my guests looked stunning!</p>
-                    <p class="testimonial-author">– Mrs. Adenike O.</p>
-                </div>
-                <div class="testimonial-card">
-                    <p>I've been a loyal customer for years. The quality of their work is unmatched, and they always deliver on time. Highly recommended!</p>
-                    <p class="testimonial-author">– Mr. Biodun A.</p>
-                </div>
-                <div class="testimonial-card">
-                    <p>From consultation to final fitting, the experience was seamless. They understood exactly what I wanted and brought my vision to life beautifully.</p>
-                    <p class="testimonial-author">– Miss Folake M.</p>
+                    <h3>Bulk Supply for Businesses</h3>
+                    <p>Restaurants, hotels, and food businesses can rely on us for consistent, high-quality produce and confectionery supplies. We offer flexible ordering and reliable delivery schedules tailored to your business needs.</p>
                 </div>
             </div>
         </div>
@@ -735,33 +598,43 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="contact-container">
+        <div class="container">
             <h2>Get In Touch</h2>
-            <p>Ready to elevate your style? Visit OSINIMU B ENTERPRISE at our Ogori location or reach out to discuss your fashion needs. We're here to bring your creative vision to life with exceptional craftsmanship and personalized service. Walk-ins are welcome, or schedule a consultation for a more personalized experience.</p>
-            <p>Our studio is open Monday through Saturday, and we're always excited to meet new clients and discuss your fashion dreams. Let's create something beautiful together!</p>
-            <div class="contact-details">
+            <p class="contact-intro">Ready to experience farm-fresh quality? We're here to serve you.</p>
+            <div class="contact-grid">
                 <div class="contact-item">
-                    <h3>Location</h3>
+                    <h3>Visit Us</h3>
                     <p>H22 Ileteju Street, Ogori<br>Ogori/Magongo, Nigeria</p>
                 </div>
                 <div class="contact-item">
-                    <h3>Phone</h3>
-                    <p><a href="tel:+2347039791408">0703 979 1408</a></p>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+2347039791408">+234 703 979 1408</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:info@jovikafoods.com">info@jovikafoods.com</a></p>
                 </div>
             </div>
-            <a href="https://wa.me/2347039791408" class="contact-btn" target="_blank">WhatsApp Us</a>
+            <div class="contact-item" style="max-width: 600px; margin: 0 auto;">
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                Saturday: 9:00 AM - 4:00 PM<br>
+                Sunday: Closed</p>
+                <a href="https://wa.me/2347039791408" class="whatsapp-btn" target="_blank">Chat on WhatsApp</a>
+            </div>
+            <p style="text-align: center; margin-top: 2rem; line-height: 1.8;">Whether you're a household looking for fresh produce or a business seeking a reliable supplier, we're ready to serve you. Contact us today to discuss your needs or place an order.</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 OSINIMU B ENTERPRISE. All rights reserved.</p>
+        <p>&copy; 2024 Jovika Foods Fresh Produce Co. All rights reserved.</p>
     </footer>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/2347039791408" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
-        <svg width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2347039791408" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.203 1.393 1.38-5.137-0.324-0.527c-1.331-2.178-2.043-4.688-2.043-7.26 0-7.585 6.185-13.77 13.77-13.77s13.77 6.185 13.77 13.77c0 7.585-6.185 13.77-13.77 13.77zM23.5 19.457c-0.384-0.192-2.27-1.121-2.621-1.248-0.351-0.128-0.607-0.192-0.863 0.192s-0.992 1.248-1.216 1.504c-0.223 0.257-0.447 0.289-0.831 0.096-0.384-0.192-1.621-0.598-3.087-1.905-1.141-1.016-1.913-2.271-2.136-2.655-0.223-0.384-0.024-0.592 0.168-0.783 0.173-0.171 0.384-0.448 0.576-0.672 0.192-0.223 0.256-0.384 0.384-0.64 0.128-0.257 0.064-0.48-0.032-0.672-0.096-0.192-0.863-2.079-1.183-2.847-0.312-0.75-0.629-0.648-0.863-0.66-0.223-0.011-0.479-0.013-0.735-0.013s-0.671 0.096-1.023 0.48c-0.351 0.384-1.343 1.312-1.343 3.199s1.375 3.711 1.567 3.967c0.192 0.257 2.704 4.128 6.553 5.79 0.915 0.395 1.629 0.631 2.186 0.808 0.919 0.292 1.755 0.251 2.414 0.152 0.736-0.11 2.27-0.928 2.59-1.824 0.319-0.896 0.319-1.664 0.223-1.824-0.096-0.159-0.351-0.255-0.735-0.447z"/>
         </svg>
     </a>
 
